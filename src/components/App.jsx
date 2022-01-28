@@ -14,6 +14,7 @@ function addPost(thePost){
 };
 
 
+
 function deletePost(id) {
     setPosts((prev) => {
         return prev.filter((item, index) => {
