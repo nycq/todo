@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 
 function Note(props){
 
     function handleClick(){
         props.delete(props.id);
     }
+
+
     return (
         <div className="note">
           <h1>{props.title}</h1>
@@ -15,3 +17,4 @@ function Note(props){
 }
 
 export default Note;
+
